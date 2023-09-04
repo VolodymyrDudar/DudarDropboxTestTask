@@ -52,10 +52,10 @@ class CollectionViewPresetnerImpl {
         self.client?.files.listFolder(path: "").response(queue: queue) { response, error in
             guard let response else { return }
             response.entries.forEach { file in
-                if file.name.hasSuffix(".jpg") || file.name.hasSuffix(".png") || file.name.hasSuffix(".jpeg") {
+                if file.name.isImageFile() {
                     tempMediaNamesArra.append(MediaFileInfo(nameOnServer: file.name, typeMedia: .images))
                 }
-                if file.name.hasSuffix(".mp4") {
+                if file.name.isVideoFile() {
                     tempMediaNamesArra.append(MediaFileInfo(nameOnServer: file.name, typeMedia: .videos))
                 }
             }
