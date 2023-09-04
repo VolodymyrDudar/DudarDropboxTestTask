@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D33AD512AA0BBDD005745EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD502AA0BBDD005745EF /* AppDelegate.swift */; };
+		4D33AD532AA0BBDD005745EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD522AA0BBDD005745EF /* SceneDelegate.swift */; };
+		4D33AD552AA0BBDD005745EF /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD542AA0BBDD005745EF /* CollectionViewController.swift */; };
+		4D33AD5A2AA0BBDE005745EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D33AD592AA0BBDE005745EF /* Assets.xcassets */; };
+		4D33AD5D2AA0BBDE005745EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D33AD5B2AA0BBDE005745EF /* LaunchScreen.storyboard */; };
+		4D33AD652AA0E2FD005745EF /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD642AA0E2FD005745EF /* ImageCollectionViewCell.swift */; };
+		4D33AD672AA1FF1C005745EF /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD662AA1FF1C005745EF /* VideoCollectionViewCell.swift */; };
+		4D33AD692AA20C5E005745EF /* hamster.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D33AD682AA20C5E005745EF /* hamster.mp4 */; };
+		4D33AD6C2AA264CA005745EF /* CollectionViewPresetner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD6B2AA264CA005745EF /* CollectionViewPresetner.swift */; };
+		4D33AD6E2AA265AA005745EF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD6D2AA265AA005745EF /* ViewModel.swift */; };
+		4D33AD712AA28AEA005745EF /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD702AA28AEA005745EF /* FileInfo.swift */; };
+		4D33AD732AA28CF3005745EF /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD722AA28CF3005745EF /* Image.swift */; };
+		4D33AD752AA28D4C005745EF /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD742AA28D4C005745EF /* Video.swift */; };
+		4D33AD7A2AA30BE7005745EF /* Date + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD792AA30BE7005745EF /* Date + extension.swift */; };
+		4D33AD7C2AA3285C005745EF /* UIViewController + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD7B2AA3285C005745EF /* UIViewController + extension.swift */; };
+		4D33AD7F2AA331EB005745EF /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD7E2AA331EB005745EF /* SectionHeaderView.swift */; };
+		4D33AD812AA36509005745EF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD802AA36509005745EF /* ImageViewController.swift */; };
+		4D33AD832AA36A2C005745EF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD822AA36A2C005745EF /* PageViewController.swift */; };
+		4D33AD852AA36C0D005745EF /* PageViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD842AA36C0D005745EF /* PageViewPresenter.swift */; };
+		4D33AD872AA36F49005745EF /* ImageViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33AD862AA36F49005745EF /* ImageViewPresenter.swift */; };
+		4D7045462AA624DE00034C39 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7045452AA624DE00034C39 /* LoadingView.swift */; };
+		4DBE1E4F2AA4755F00E2CE2B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBE1E4E2AA4755F00E2CE2B /* LoginViewController.swift */; };
+		4DBF68672AA49D6300D20DF0 /* LoginViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF68662AA49D6300D20DF0 /* LoginViewPresenter.swift */; };
+		4DC4E43E2AA5F954000508A6 /* MediaFileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4E43D2AA5F954000508A6 /* MediaFileInfo.swift */; };
+		722C702F6D453338671F699B /* Pods_DudarDropboxTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB2E0C00FF6DAA791BB8DA /* Pods_DudarDropboxTestTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EE9198204E5D47BA2B506DF /* Pods-DudarDropboxTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DudarDropboxTestTask.debug.xcconfig"; path = "Target Support Files/Pods-DudarDropboxTestTask/Pods-DudarDropboxTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		4D33AD4D2AA0BBDD005745EF /* DudarDropboxTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DudarDropboxTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D33AD502AA0BBDD005745EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D33AD522AA0BBDD005745EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D33AD542AA0BBDD005745EF /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		4D33AD592AA0BBDE005745EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D33AD5C2AA0BBDE005745EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D33AD5E2AA0BBDE005745EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D33AD642AA0E2FD005745EF /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D33AD662AA1FF1C005745EF /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D33AD682AA20C5E005745EF /* hamster.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hamster.mp4; sourceTree = "<group>"; };
+		4D33AD6B2AA264CA005745EF /* CollectionViewPresetner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewPresetner.swift; sourceTree = "<group>"; };
+		4D33AD6D2AA265AA005745EF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4D33AD702AA28AEA005745EF /* FileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
+		4D33AD722AA28CF3005745EF /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		4D33AD742AA28D4C005745EF /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		4D33AD792AA30BE7005745EF /* Date + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + extension.swift"; sourceTree = "<group>"; };
+		4D33AD7B2AA3285C005745EF /* UIViewController + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + extension.swift"; sourceTree = "<group>"; };
+		4D33AD7E2AA331EB005745EF /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		4D33AD802AA36509005745EF /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		4D33AD822AA36A2C005745EF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		4D33AD842AA36C0D005745EF /* PageViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewPresenter.swift; sourceTree = "<group>"; };
+		4D33AD862AA36F49005745EF /* ImageViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewPresenter.swift; sourceTree = "<group>"; };
+		4D7045452AA624DE00034C39 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4DBE1E4E2AA4755F00E2CE2B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4DBF68662AA49D6300D20DF0 /* LoginViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewPresenter.swift; sourceTree = "<group>"; };
+		4DC4E43D2AA5F954000508A6 /* MediaFileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFileInfo.swift; sourceTree = "<group>"; };
+		BFBB2E0C00FF6DAA791BB8DA /* Pods_DudarDropboxTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DudarDropboxTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21E4074347517475B3C7F14 /* Pods-DudarDropboxTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DudarDropboxTestTask.release.xcconfig"; path = "Target Support Files/Pods-DudarDropboxTestTask/Pods-DudarDropboxTestTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D33AD4A2AA0BBDD005745EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722C702F6D453338671F699B /* Pods_DudarDropboxTestTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309FB62D897FF7B8A5ACEDF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFBB2E0C00FF6DAA791BB8DA /* Pods_DudarDropboxTestTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D33AD442AA0BBDC005745EF = {
+			isa = PBXGroup;
+			children = (
+				4D33AD4F2AA0BBDD005745EF /* DudarDropboxTestTask */,
+				4D33AD4E2AA0BBDD005745EF /* Products */,
+				C6FBF2705C691C2DB9ABC2CA /* Pods */,
+				309FB62D897FF7B8A5ACEDF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D33AD4E2AA0BBDD005745EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D33AD4D2AA0BBDD005745EF /* DudarDropboxTestTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D33AD4F2AA0BBDD005745EF /* DudarDropboxTestTask */ = {
+			isa = PBXGroup;
+			children = (
+				4D33AD682AA20C5E005745EF /* hamster.mp4 */,
+				4D33AD502AA0BBDD005745EF /* AppDelegate.swift */,
+				4D33AD522AA0BBDD005745EF /* SceneDelegate.swift */,
+				4D33AD7D2AA331C8005745EF /* SupplementaryViews */,
+				4D33AD762AA30A87005745EF /* Extensions */,
+				4D33AD6F2AA28558005745EF /* Model */,
+				4D33AD542AA0BBDD005745EF /* CollectionViewController.swift */,
+				4D33AD6B2AA264CA005745EF /* CollectionViewPresetner.swift */,
+				4D33AD802AA36509005745EF /* ImageViewController.swift */,
+				4D33AD862AA36F49005745EF /* ImageViewPresenter.swift */,
+				4D33AD822AA36A2C005745EF /* PageViewController.swift */,
+				4D33AD842AA36C0D005745EF /* PageViewPresenter.swift */,
+				4DBE1E4E2AA4755F00E2CE2B /* LoginViewController.swift */,
+				4DBF68662AA49D6300D20DF0 /* LoginViewPresenter.swift */,
+				4D33AD6A2AA26498005745EF /* Cells */,
+				4D33AD592AA0BBDE005745EF /* Assets.xcassets */,
+				4D33AD5B2AA0BBDE005745EF /* LaunchScreen.storyboard */,
+				4D33AD5E2AA0BBDE005745EF /* Info.plist */,
+			);
+			path = DudarDropboxTestTask;
+			sourceTree = "<group>";
+		};
+		4D33AD6A2AA26498005745EF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4D33AD642AA0E2FD005745EF /* ImageCollectionViewCell.swift */,
+				4D33AD662AA1FF1C005745EF /* VideoCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4D33AD6F2AA28558005745EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D33AD6D2AA265AA005745EF /* ViewModel.swift */,
+				4D33AD702AA28AEA005745EF /* FileInfo.swift */,
+				4DC4E43D2AA5F954000508A6 /* MediaFileInfo.swift */,
+				4D33AD722AA28CF3005745EF /* Image.swift */,
+				4D33AD742AA28D4C005745EF /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D33AD762AA30A87005745EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D33AD792AA30BE7005745EF /* Date + extension.swift */,
+				4D33AD7B2AA3285C005745EF /* UIViewController + extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D33AD7D2AA331C8005745EF /* SupplementaryViews */ = {
+			isa = PBXGroup;
+			children = (
+				4D33AD7E2AA331EB005745EF /* SectionHeaderView.swift */,
+				4D7045452AA624DE00034C39 /* LoadingView.swift */,
+			);
+			path = SupplementaryViews;
+			sourceTree = "<group>";
+		};
+		C6FBF2705C691C2DB9ABC2CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EE9198204E5D47BA2B506DF /* Pods-DudarDropboxTestTask.debug.xcconfig */,
+				C21E4074347517475B3C7F14 /* Pods-DudarDropboxTestTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D33AD4C2AA0BBDD005745EF /* DudarDropboxTestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D33AD612AA0BBDE005745EF /* Build configuration list for PBXNativeTarget "DudarDropboxTestTask" */;
+			buildPhases = (
+				8DECF6866B535E3417BAADE7 /* [CP] Check Pods Manifest.lock */,
+				4D33AD492AA0BBDD005745EF /* Sources */,
+				4D33AD4A2AA0BBDD005745EF /* Frameworks */,
+				4D33AD4B2AA0BBDD005745EF /* Resources */,
+				3000131A82474DEE7FF58812 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DudarDropboxTestTask;
+			productName = DudarDropboxTestTask;
+			productReference = 4D33AD4D2AA0BBDD005745EF /* DudarDropboxTestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D33AD452AA0BBDC005745EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4D33AD4C2AA0BBDD005745EF = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D33AD482AA0BBDC005745EF /* Build configuration list for PBXProject "DudarDropboxTestTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D33AD442AA0BBDC005745EF;
+			productRefGroup = 4D33AD4E2AA0BBDD005745EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D33AD4C2AA0BBDD005745EF /* DudarDropboxTestTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D33AD4B2AA0BBDD005745EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D33AD5D2AA0BBDE005745EF /* LaunchScreen.storyboard in Resources */,
+				4D33AD5A2AA0BBDE005745EF /* Assets.xcassets in Resources */,
+				4D33AD692AA20C5E005745EF /* hamster.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3000131A82474DEE7FF58812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DudarDropboxTestTask/Pods-DudarDropboxTestTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DudarDropboxTestTask/Pods-DudarDropboxTestTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DudarDropboxTestTask/Pods-DudarDropboxTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DECF6866B535E3417BAADE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DudarDropboxTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D33AD492AA0BBDD005745EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBE1E4F2AA4755F00E2CE2B /* LoginViewController.swift in Sources */,
+				4DBF68672AA49D6300D20DF0 /* LoginViewPresenter.swift in Sources */,
+				4DC4E43E2AA5F954000508A6 /* MediaFileInfo.swift in Sources */,
+				4D33AD552AA0BBDD005745EF /* CollectionViewController.swift in Sources */,
+				4D33AD732AA28CF3005745EF /* Image.swift in Sources */,
+				4D7045462AA624DE00034C39 /* LoadingView.swift in Sources */,
+				4D33AD852AA36C0D005745EF /* PageViewPresenter.swift in Sources */,
+				4D33AD7F2AA331EB005745EF /* SectionHeaderView.swift in Sources */,
+				4D33AD7C2AA3285C005745EF /* UIViewController + extension.swift in Sources */,
+				4D33AD512AA0BBDD005745EF /* AppDelegate.swift in Sources */,
+				4D33AD652AA0E2FD005745EF /* ImageCollectionViewCell.swift in Sources */,
+				4D33AD832AA36A2C005745EF /* PageViewController.swift in Sources */,
+				4D33AD872AA36F49005745EF /* ImageViewPresenter.swift in Sources */,
+				4D33AD6C2AA264CA005745EF /* CollectionViewPresetner.swift in Sources */,
+				4D33AD6E2AA265AA005745EF /* ViewModel.swift in Sources */,
+				4D33AD712AA28AEA005745EF /* FileInfo.swift in Sources */,
+				4D33AD672AA1FF1C005745EF /* VideoCollectionViewCell.swift in Sources */,
+				4D33AD812AA36509005745EF /* ImageViewController.swift in Sources */,
+				4D33AD532AA0BBDD005745EF /* SceneDelegate.swift in Sources */,
+				4D33AD752AA28D4C005745EF /* Video.swift in Sources */,
+				4D33AD7A2AA30BE7005745EF /* Date + extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D33AD5B2AA0BBDE005745EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D33AD5C2AA0BBDE005745EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D33AD5F2AA0BBDE005745EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D33AD602AA0BBDE005745EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D33AD622AA0BBDE005745EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE9198204E5D47BA2B506DF /* Pods-DudarDropboxTestTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 597UW8QG76;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DudarDropboxTestTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nopassport.DudarDropboxTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D33AD632AA0BBDE005745EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21E4074347517475B3C7F14 /* Pods-DudarDropboxTestTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 597UW8QG76;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DudarDropboxTestTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nopassport.DudarDropboxTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D33AD482AA0BBDC005745EF /* Build configuration list for PBXProject "DudarDropboxTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D33AD5F2AA0BBDE005745EF /* Debug */,
+				4D33AD602AA0BBDE005745EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D33AD612AA0BBDE005745EF /* Build configuration list for PBXNativeTarget "DudarDropboxTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D33AD622AA0BBDE005745EF /* Debug */,
+				4D33AD632AA0BBDE005745EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D33AD452AA0BBDC005745EF /* Project object */;
+}
