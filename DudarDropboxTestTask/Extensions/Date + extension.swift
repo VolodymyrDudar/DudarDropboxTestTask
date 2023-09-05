@@ -11,7 +11,7 @@ extension Date {
     func strFormatDate() -> String {
         let outputFormatter = DateFormatter()
         outputFormatter.dateFormat = "dd MMMM yyyy, HH:mm"
-        outputFormatter.locale = Locale(identifier: "en_US") // Встановлюємо локаль для англійської мови
+        outputFormatter.locale = Locale(identifier: "en_US") 
 
         return outputFormatter.string(from: self)
     }
