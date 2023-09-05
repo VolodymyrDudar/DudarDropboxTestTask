@@ -94,7 +94,7 @@ private extension CollectionViewController {
     }
     
     //MARK: setConstraints
-    private func setConstraints() {
+    func setConstraints() {
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),

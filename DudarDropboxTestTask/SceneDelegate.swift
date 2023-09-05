@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftyDropbox
+import Adjust
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,13 +18,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {  
         guard let winScene = (scene as? UIWindowScene) else { return }
         DropboxClientsManager.setupWithAppKey("9u9bbmfg88zipe9")
+         
+        let environment = ADJEnvironmentSandbox  //forTest
+        let config = ADJConfig(appToken: "appToken", environment: environment)
+//        Adjust.appDidLaunch(config)
+        
         window = .init(windowScene: winScene)
         window?.makeKeyAndVisible() 
         window?.rootViewController = UINavigationController(rootViewController: rootVC)
         
     }
- 
-    
+  
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

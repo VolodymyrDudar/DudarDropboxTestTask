@@ -6,6 +6,7 @@ target 'DudarDropboxTestTask' do
   use_frameworks!
   
    pod 'SwiftyDropbox'
+   pod 'Adjust', '~> 4.33.3'
 
   # Pods for DudarDropboxTestTask
 

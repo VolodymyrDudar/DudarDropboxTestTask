@@ -67,8 +67,7 @@ class VideoCollectionViewCell: UICollectionViewCell {
     }
      
     private func setConstraints() {
-        buttonInfo.translatesAutoresizingMaskIntoConstraints = false
-       
+        buttonInfo.translatesAutoresizingMaskIntoConstraints = false 
         NSLayoutConstraint.activate([
             buttonInfo.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -8),
             buttonInfo.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 8),

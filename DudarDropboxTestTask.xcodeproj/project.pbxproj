@@ -32,6 +32,7 @@
 		4DBE1E4F2AA4755F00E2CE2B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBE1E4E2AA4755F00E2CE2B /* LoginViewController.swift */; };
 		4DBF68672AA49D6300D20DF0 /* LoginViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF68662AA49D6300D20DF0 /* LoginViewPresenter.swift */; };
 		4DC4E43E2AA5F954000508A6 /* MediaFileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4E43D2AA5F954000508A6 /* MediaFileInfo.swift */; };
+		4DD794442AA78A8E0008C624 /* AdjustSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DD794432AA78A8E0008C624 /* AdjustSettings.plist */; };
 		722C702F6D453338671F699B /* Pods_DudarDropboxTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB2E0C00FF6DAA791BB8DA /* Pods_DudarDropboxTestTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		4DBE1E4E2AA4755F00E2CE2B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4DBF68662AA49D6300D20DF0 /* LoginViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewPresenter.swift; sourceTree = "<group>"; };
 		4DC4E43D2AA5F954000508A6 /* MediaFileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFileInfo.swift; sourceTree = "<group>"; };
+		4DD794432AA78A8E0008C624 /* AdjustSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AdjustSettings.plist; sourceTree = "<group>"; };
 		BFBB2E0C00FF6DAA791BB8DA /* Pods_DudarDropboxTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DudarDropboxTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21E4074347517475B3C7F14 /* Pods-DudarDropboxTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DudarDropboxTestTask.release.xcconfig"; path = "Target Support Files/Pods-DudarDropboxTestTask/Pods-DudarDropboxTestTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +128,7 @@
 				4D33AD6A2AA26498005745EF /* Cells */,
 				4D33AD592AA0BBDE005745EF /* Assets.xcassets */,
 				4D33AD5B2AA0BBDE005745EF /* LaunchScreen.storyboard */,
+				4DD794432AA78A8E0008C624 /* AdjustSettings.plist */,
 				4D33AD5E2AA0BBDE005745EF /* Info.plist */,
 			);
 			path = DudarDropboxTestTask;
@@ -242,6 +245,7 @@
 			files = (
 				4D33AD5D2AA0BBDE005745EF /* LaunchScreen.storyboard in Resources */,
 				4D33AD5A2AA0BBDE005745EF /* Assets.xcassets in Resources */,
+				4DD794442AA78A8E0008C624 /* AdjustSettings.plist in Resources */,
 				4D33AD692AA20C5E005745EF /* hamster.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

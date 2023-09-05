@@ -28,7 +28,6 @@ class LoginViewPresenterImpl {
 extension LoginViewPresenterImpl: LoginViewPresenterOut {
     
     func viewDidAppear() {
-        
         guard  DropboxClientsManager.authorizedClient != nil  else { return }
         let vc = CollectionViewController()
         vc.presenter = CollectionViewPresetnerImpl() 

@@ -1,20 +1,26 @@
 PODS:
+  - Adjust (4.33.6):
+    - Adjust/Core (= 4.33.6)
+  - Adjust/Core (4.33.6)
   - Alamofire (5.4.4)
   - SwiftyDropbox (9.2.0):
     - Alamofire (~> 5.4.3)
 
 DEPENDENCIES:
+  - Adjust (~> 4.33.3)
   - SwiftyDropbox
 
 SPEC REPOS:
   trunk:
+    - Adjust
     - Alamofire
     - SwiftyDropbox
 
 SPEC CHECKSUMS:
+  Adjust: c3b6c3734928a617fefce81dc223fd5f104162be
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   SwiftyDropbox: 073c7e0852bf50d858163140f56d0a1133b79b48
 
-PODFILE CHECKSUM: 57f18946b63009656213b52257de55cba63a85b8
+PODFILE CHECKSUM: 0cba64fc68b37f92c04a5e00214c8d0b681a9fb3
 
 COCOAPODS: 1.11.3
